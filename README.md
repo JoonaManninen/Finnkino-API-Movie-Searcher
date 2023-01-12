@@ -1,6 +1,7 @@
 # Finnkino-API-Movie-Searcher
 App made with Android Studio using Java.
 This application was made as final project in OOP course.
+
 Here you can see the main menu:
 
 
