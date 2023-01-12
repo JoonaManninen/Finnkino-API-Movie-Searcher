@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/bg_snow"
     android:layout_height="match_parent"
+    android:background="#555353"
     tools:context=".activities.ReviewInfoActivity">
 
     <TextView
@@ -21,9 +21,9 @@
     <TextView
         android:id="@+id/titleReviewTextView"
         android:layout_width="317dp"
-        android:layout_height="64dp"
-        android:textAlignment="center"
+        android:layout_height="70dp"
         android:layout_marginTop="16dp"
+        android:textAlignment="center"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

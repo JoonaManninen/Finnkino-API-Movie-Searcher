@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/drawable/bg_snow.xml" value="0.299" />
+        <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/drawable/border.xml" value="0.5345" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/drawable/gradient_1.xml" value="0.323" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/drawable/gradient_10.xml" value="0.323" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/drawable/gradient_2.xml" value="0.323" />
@@ -18,7 +19,7 @@
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_list_view.xml" value="0.33" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_login.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_register.xml" value="0.5" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_review.xml" value="0.43333333333333335" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_review_info.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/joona/AndroidStudioProjects/Film_App_Joona_Manninen/app/src/main/res/layout/activity_review_list.xml" value="0.5" />
