@@ -2,7 +2,7 @@
 App made with Android Studio using Java.
 This application was made as final project in OOP course.
 
-Movie-Searcher is made to searche movies from Finnkinos open API and use the data to showcase upcoming and already shown movies.
+Movie-Searcher is made to search movies from Finnkinos open API.
 
 Here you can see how the UI looks:
 
