@@ -229,7 +229,7 @@ public class FilmManager {
         return;
     }
 
-    // Method which gets all the saved Entries to arraylist full of Entry objects.
+    // Method which gets all the saved Entries to arraylist.
     private void makeSavedEntryList(){
 
         for(int i = 0; i < entriesJSON.length(); i++){

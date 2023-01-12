@@ -5,13 +5,27 @@
     android:id="@+id/filmListView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#555353"
+    android:background="#000"
     tools:context=".activities.ListViewActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ListView
         android:id="@+id/reviewListView"
         android:layout_width="match_parent"
         android:layout_height="670dp"
+        android:alpha="0.8"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp" />
 
@@ -23,6 +37,9 @@
         android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         android:gravity="center"
+        android:shadowColor="#876A06"
+        android:shadowRadius="30"
+        android:textColor="#ad8a09"
         android:text="@string/reviews"
         android:textSize="35sp" />
 
@@ -32,6 +49,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/reviewListView"
         android:layout_marginBottom="5dp"
+        android:shadowColor="#876A06"
+        android:shadowRadius="30"
+        android:textColor="#ad8a09"
         android:text="@string/order"
         android:textAlignment="center" />
 

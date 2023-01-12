@@ -47,7 +47,7 @@ public class ReviewInfoActivity extends AppCompatActivity {
         // Setting rating
         reviewRatingBar.setRating(fm.getRating(index));
         // Setting comment from review
-        commentTextView.setText(fm.getComment(index));
+        commentTextView.setText(getResources().getString(R.string.description) + "\n" + fm.getComment(index));
         // Setting date
         dateTextView.setText(getResources().getString(R.string.reviewDate) + fm.getDate(index));
 

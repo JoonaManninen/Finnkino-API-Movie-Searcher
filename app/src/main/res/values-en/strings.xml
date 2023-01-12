@@ -6,9 +6,9 @@
     <string name="url">https://www.finnkino.fi/xml/Events/</string>
     // FilmInfoActivity
     <string name="movieTextView3">Movies</string>
-    <string name="productionYear">Production year: </string>
-    <string name="movieLength">Movie length: </string>
-    <string name="genres">Genres: </string>
+    <string name="productionYear">Production year: "</string>
+    <string name="movieLength">Movie length: "</string>
+    <string name="genres">Genres: "</string>
     // Login and registering
     <string name="signInGood">Login was successful"</string>
     <string name="signInBad">Wrong username or password"</string>
@@ -24,7 +24,8 @@
     // Review
     <string name="reviewSaved">Your review was saved"</string>
     <string name="alreadyReviewed">You have reviewed this already"</string>
-    <string name="reviewDate">The date your review was made:"</string>
+    <string name="reviewDate">The date your review was made: "</string>
+    <string name="description">Your comment: "</string>
     <string name="makeReviewBtn">Review the movie"</string>
     <string name="comment">Comment:"</string>
     <string name="save_review">Save your review"</string>

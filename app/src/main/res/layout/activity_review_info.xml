@@ -4,13 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#555353"
+    android:background="#000"
     tools:context=".activities.ReviewInfoActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/commentTextView5"
         android:layout_width="317dp"
         android:layout_height="300dp"
+        android:textColor="#ad8a09"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +38,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="16dp"
         android:textAlignment="center"
+        android:textColor="#ad8a09"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,19 +52,21 @@
         android:id="@+id/reviewRatingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rating="0"
+        android:theme="@style/RatingBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleReviewTextView"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.038"
+        tools:progressBackgroundTint="#CAB920" />
 
     <Button
         android:id="@+id/deleteEntryBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="112dp"
+        android:backgroundTint="#876A06"
         android:text="@string/delete_review"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +78,7 @@
     <TextView
         android:id="@+id/dateTextView6"
         android:layout_width="317dp"
+        android:textColor="#ad8a09"
         android:layout_height="37dp"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

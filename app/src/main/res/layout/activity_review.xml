@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#555353"
+    android:background="#000"
     tools:context=".activities.ReviewActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/titleReviewTextView"
@@ -13,11 +26,13 @@
         android:layout_height="64dp"
         android:layout_marginTop="16dp"
         android:textSize="34sp"
+        android:textColor="#ad8a09"
         android:textStyle="bold"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -25,10 +40,12 @@
         android:id="@+id/reviewRatingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rating="0"
+        android:progressTint="#CAB920"
+        android:rating="2.5"
+        android:theme="@style/RatingBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleReviewTextView"
         app:layout_constraintVertical_bias="0.021" />
@@ -37,14 +54,17 @@
         android:id="@+id/reviewEditText"
         android:layout_width="317dp"
         android:layout_height="140dp"
-        android:background="@null"
         android:ems="10"
         android:gravity="top"
+        android:textColor="#ad8a09"
+        android:textColorHint="#ad8a09"
+        android:background="@drawable/border"
         android:hint="@string/comment"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
         app:layout_constraintVertical_bias="0.214" />
 
@@ -53,6 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/save_review"
+        android:backgroundTint="#876A06"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,9 +84,10 @@
         android:id="@+id/calendarView"
         android:layout_width="303dp"
         android:layout_height="310dp"
+        android:theme="@style/CalenderViewCustom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reviewRatingBar"
         app:layout_constraintVertical_bias="0.169" />
@@ -74,10 +96,11 @@
         android:id="@+id/textView"
         android:layout_width="279dp"
         android:layout_height="20dp"
+        android:textColor="#ad8a09"
         android:text="@string/give_date"
         app:layout_constraintBottom_toTopOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

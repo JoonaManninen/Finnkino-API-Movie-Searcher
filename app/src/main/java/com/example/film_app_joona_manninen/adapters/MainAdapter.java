@@ -64,13 +64,13 @@ public class MainAdapter extends BaseAdapter {
         if(num==1){
             ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_1));
         } else if(num == 2){
-            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_2));
+            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_6));
         } else if(num == 3){
-            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_3));
+            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_6));
         } else if(num == 4){
             ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_4));
         } else if(num == 5){
-            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_5));
+            ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_9));
         } else if(num == 6){
             ll_background.setBackground(ContextCompat.getDrawable(listViewActivity, R.drawable.gradient_6));
         } else if(num == 7){

@@ -24,8 +24,9 @@
     // Review
     <string name="reviewSaved">Arvostelusi on tallennettu"</string>
     <string name="alreadyReviewed">Olet jo arvostellut tämän elokuvan"</string>
-    <string name="reviewDate">Päivämäärä jolloin arvostelui on tehty:"</string>
+    <string name="reviewDate">Päivämäärä jolloin arvostelu on tehty: "</string>
     <string name="makeReviewBtn">Arvostele elokuva"</string>
+    <string name="description">Sinun kommentti: "</string>
     <string name="comment">Kommentti:"</string>
     <string name="save_review">Tallenna arvostelu"</string>
     <string name="give_date">Anna päivämäärä jolloin katsoit elokuvan:"</string>

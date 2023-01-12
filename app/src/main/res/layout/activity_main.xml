@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#555353"
+    android:background="#000"
     tools:context=".activities.MainActivity">
 
     <ImageView
@@ -12,7 +12,7 @@
         android:layout_height="fill_parent"
         android:alpha="0.1"
         android:scaleType="centerCrop"
-        android:src="@drawable/theatre"
+        android:src="@drawable/main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -53,8 +53,9 @@
         android:text="@string/app_title"
         android:textAlignment="center"
         android:textSize="40sp"
+        android:shadowColor="#876A06"
+        android:shadowRadius="30"
         android:textColor="#ad8a09"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +67,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_out"
+        android:shadowColor="#876A06"
+        android:shadowRadius="700"
         android:backgroundTint="#876A06"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
